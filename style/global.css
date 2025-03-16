@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Cormorant Unicase';
+    src: url('..\\Шрифт\\Cormorant Unicase woff\\CormorantUnicase-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+/* ------- Нормализация стилей - начало ------- */
+
+/* ... */
+
+/* ------- Нормализация стилей - конец ------- */
+
+
+/* Глобальные css-переменные: */
+:root {
+    --color-dark: #1F2322;
+    --color-white: #ffffff;
+    --color-gray: #808080;
+
+    --main-banner-opacity: 72%;
+    --upper-button-opacity: 78%;
+    --button-radius: 50%;
+
+    --сormorant-font: 'Cormorant Unicase', sans-serif;
+
+    --container-width: 1260px;
+    --container-padding-x: 15px;
+
+    --transition-duration: 0.2s;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: var(--сormorant-font), sans-serif; 
+}
+
+body {
+    /* overflow-x: hidden; */
+    background-color: var(--color-dark);
+}
+
+
+#container{
+    /* margin: 30px 90px 0 90px; */
+    margin: 0% 10%;
+    /* display: none; */
+    
+}

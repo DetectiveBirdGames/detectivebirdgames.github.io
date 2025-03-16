@@ -1,0 +1,83 @@
+
+#emotions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vw;
+}
+
+#emotions > div > img{
+    /* height: 150px;
+    width: 90px; */
+
+    height: 11vw;
+    width: 6.6vw;
+
+    /* margin-right: 50px;
+    margin-left: 50px; */
+    margin-right: 7vw;
+    margin-left: 7vw;
+}
+
+.emotions-text{
+    text-align: center;
+}
+
+.emotions-text > p{
+    /* font-size: 18px; */
+    font-size: 2vw;
+    transform: scaleY(0.9); 
+    transform-origin: top center;
+
+    -moz-font-feature-settings: "lnum";
+    -webkit-font-feature-settings: "lnum";
+    font-feature-settings: "lnum";
+}
+
+
+
+
+/* - - - - - - - - - - - - - - - АДАПТИВНОСТЬ - - - - - - - - - - - - - - -  */
+
+
+
+
+@media (max-width: 600px) {
+    #emotions-container{
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+        /* margin: 0 auto; */
+    }
+
+
+    #emotions{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: first baseline;
+        gap: 0vw;
+    }
+
+    #emotions > div{
+        display: flex;
+        /* justify-content: left baseline; */
+        align-items: center;
+    }
+
+    #emotions > div > img{
+        /* height: 150px;
+        width: 90px; */
+    
+        height: 20vw;
+        width: 12vw;
+
+        margin-right: 7vw;
+        margin-left: 0vw;
+    }
+
+    .emotions-text > p{
+        font-size: 3.5vw;
+    }
+
+}

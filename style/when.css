@@ -1,0 +1,151 @@
+#when-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+#when-text > p{
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 0 10px;
+}
+
+.line3{
+    background-color: #fff;
+    height: 2px;
+    width: 10%;
+    flex-grow: 1;
+}
+
+
+
+
+#when-text{
+    margin-top: 120px;
+}
+
+
+
+#when-block{
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.curtains{
+    position: absolute;
+    z-index: 1;
+}
+
+#right-curtain{
+    right: 0px;
+}
+
+
+
+
+#when-description{
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    /* text-align: center; */
+    left: 50%;
+    /* коррекция положения элемента */
+    transform: translate(-50%, 0%);
+    min-width: 100%;
+}
+
+#when-description > p{
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+#telegram{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 400px;
+    height: 65px;
+    border: 3px solid white;
+    color: #fff;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 24px;
+    background-color: rgba(31, 35, 34, 0.7);
+    /* margin-top: 30px; */
+    letter-spacing: 5px;
+}
+
+
+
+
+
+
+@media (max-width: 990px){
+    #when-text > p{
+        font-size: 34px;
+    }
+
+    #when-description > p{
+        font-size: 20px;
+    }
+
+    #telegram{
+        min-width: 350px;
+        height: 60px;
+        font-size: 22px;
+    }
+}
+
+
+
+@media (max-width: 930px) {
+    #when-text > p{
+        font-size: 30px;
+    }
+}
+
+
+
+
+@media (max-width: 860px){
+    #when-text > p{
+        font-size: 26px;
+    }
+
+    #when-description > p{
+        font-size: 17px;
+    }
+
+    #telegram{
+        min-width: 300px;
+        height: 55px;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    #when{
+        margin-top: 300px;
+    }
+
+    #when-description > p{
+        font-size: 15px;
+    }
+
+    #telegram{
+        min-width: 250px;
+        height: 50px;
+        font-size: 18px;
+        margin-top: 30px;
+    }
+}
