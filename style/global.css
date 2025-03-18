@@ -14,6 +14,18 @@
 
 /* ------- Нормализация стилей - конец ------- */
 
+.wrapper {
+    max-width: 1200px; /* Ограничение ширины */
+    margin: 0 auto; /* Центрирование */
+    padding: 0 20px; /* Немного отступов по бокам для мобильных */
+}
+
+@media (min-width: 1600px) {
+    .wrapper {
+        max-width: 1400px; /* Можно увеличить для ультрашироких экранов */
+    }
+}
+
 
 /* Глобальные css-переменные: */
 :root {
@@ -47,11 +59,4 @@ body {
     /* overflow-x: hidden; */
     background-color: var(--color-dark);
 }
-
-
-#container{
-    /* margin: 30px 90px 0 90px; */
-    margin: 0% 10%;
-    /* display: none; */
-    
 }

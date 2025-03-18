@@ -12,10 +12,7 @@
     -webkit-justify-content: center;
 
     gap: 0px;
-    margin-right: 25px;
-    margin-left: 25px;
-    /* padding-top: -400px; */
-    margin-top: 200px;
+    margin-top: 50px;
 }
 
 .traces-img{
@@ -32,6 +29,12 @@
     .traces-img{
         max-height: 300px;
         max-width: 49%;
+    }
+}
+
+@media (max-width: 500px) {
+    #traces {
+        margin-top: 30px; 
     }
 }
 
