@@ -33,6 +33,14 @@
 
 }
 
+.emotions-text-title {
+    font-weight: 700;
+}
+
+.emotions-text-subtitle {
+    font-weight: 300;
+}
+
 
 @media (max-width: 1100px) {
     #emotions > div > img{

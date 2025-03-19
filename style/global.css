@@ -1,10 +1,20 @@
 @font-face {
+    font-weight: 400; /* Соответствует значению normal */
     font-family: 'Cormorant Unicase';
-    src: url('..\\Шрифт\\Cormorant Unicase woff\\CormorantUnicase-Regular.woff2') format('woff2');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
+    src: url("../fonts/CormorantUnicase-Regular.ttf");
+  }
+  
+  @font-face {
+    font-weight: 700; /* Соответствует значению bold */
+    font-family: 'Cormorant Unicase';
+    src: url("../fonts/CormorantUnicase-Bold.ttf");
+  }
+  
+  @font-face {
+    font-weight: 300;
+    font-family: 'Cormorant Unicase';
+    src: url("../fonts/CormorantUnicase-Light.ttf");
+  }
 
 
 
@@ -56,7 +66,5 @@
 }
 
 body {
-    /* overflow-x: hidden; */
     background-color: var(--color-dark);
-}
 }

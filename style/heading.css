@@ -1,6 +1,6 @@
 #heading {
     position: relative;
-    background: url('../Картинки/main-img.png') no-repeat center center;
+    background: url('../img/main-img.webp') no-repeat center center;
     background-size: cover;
     min-height: 660px;
     width: 100%;
@@ -35,6 +35,7 @@
 
 #company-name{
     font-size: 42px;
+    font-weight: 700;
 }
 
 
@@ -48,6 +49,7 @@
 
 .title {
     font-size: 45px;
+    font-weight: 700;
     margin: auto;
     margin-top: 20px;
     margin-bottom: -100%;
@@ -66,6 +68,7 @@
 
 #bloody-props {
     font-size: 30px;
+    font-weight: 700;
     color: var(--color-gray);
     margin: 0 5px;
     white-space: nowrap;
@@ -117,13 +120,14 @@
     font-size: 22px;
     text-transform: uppercase;
     background-color: rgba(31, 35, 34, 0.7);
+    font-weight: 700;
+    letter-spacing: 3px;
 }
 
 #go-to-tg:hover {
     color: #000;
     background-color: #fff;
     border-color: #000;
-    font-weight: 900;
 }
 
 
@@ -234,7 +238,7 @@
         bottom: 75px;
         right: 50px;
         font-size: 16px;
-        min-width: 260px;
+        max-width: 260px;
     }
 
     .hand{
@@ -315,8 +319,14 @@
     }
 
     #go-to-tg {
-       max-width: 200px;
-       bottom: 20px
+        max-width: 160px;
+        font-size: 14px;
+        bottom: 20px;
+        height: 50px;
+    }
+
+    #main-banner {
+        width: 85%;
     }
 }
 
