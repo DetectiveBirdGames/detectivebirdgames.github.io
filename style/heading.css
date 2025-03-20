@@ -28,7 +28,7 @@
     margin: 0 auto 4px;
 }
 
-#main-banner > p {
+#main-banner > h1 {
     text-align: center;
     margin-bottom: 0px;
 }
@@ -327,13 +327,13 @@
     }
 
     #main-banner {
-        width: 85%;
+        width: 95%;
     }
 }
 
 
 @media (max-width: 480px) {
-    #main-banner > p {
+    #main-banner > h1 {
         font-size: 1.4rem;
     }
     
@@ -357,7 +357,7 @@
         min-height: 180px;
     }
 
-    #main-banner > p {
+    #main-banner > h1 {
         font-size: 1.2rem;
     }
 
@@ -368,7 +368,7 @@
   
 
 @media (max-width: 410px) {
-    #main-banner > p {
+    #main-banner > h1 {
         font-size: 1rem;
     }
 
