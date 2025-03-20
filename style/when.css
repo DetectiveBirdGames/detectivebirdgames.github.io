@@ -8,7 +8,7 @@
     align-items: center;
 }
 
-#when-text > p{
+#when-text > h2{
     font-size: 40px;
     font-weight: 700;
     text-transform: uppercase;
@@ -55,7 +55,7 @@
     width: 70%;
 }
 
-#when-description > p{
+#when-description > p, #when-description > h3{
     font-size: 24px;
     text-align: center;
 }
@@ -88,11 +88,11 @@
 
 
 @media (max-width: 990px){
-    #when-text > p{
+    #when-text > h2{
         font-size: 34px;
     }
 
-    #when-description > p{
+    #when-description > p, #when-description > h3{
         font-size: 20px;
     }
 
@@ -106,7 +106,7 @@
 
 
 @media (max-width: 930px) {
-    #when-text > p{
+    #when-text > h2{
         font-size: 30px;
     }
 }
@@ -120,11 +120,11 @@
 
 
 @media (max-width: 860px){
-    #when-text > p{
+    #when-text > h2{
         font-size: 4.2vw;
     }
 
-    #when-description > p{
+    #when-description > p, #when-description > h3{
         font-size: 17px;
     }
 
@@ -160,7 +160,7 @@
     }
 
 
-    #when-description > p{
+    #when-description > p, #when-description > h3{
         font-size: 14px;
     }
 
@@ -188,7 +188,7 @@
         font-size: 14px;
     }
 
-    #when-description > p{
+    #when-description > p, #when-description > h3{
         font-size: 13px;
     }
 }
@@ -201,7 +201,7 @@
         font-size: 12px;
     }
 
-    #when-description > p{
+    #when-description > p, #when-description > h3{
         font-size: 11px;
     }
 }
