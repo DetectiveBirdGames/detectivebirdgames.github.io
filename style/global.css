@@ -65,6 +65,8 @@
     font-family: var(--сormorant-font), sans-serif; 
 }
 
+html { scroll-behavior: smooth; }
+
 body {
     background-color: var(--color-dark);
 }
