@@ -1,0 +1,21 @@
+.button {
+    border: 3px solid var(--color-white);
+    border-radius: 50px;
+    color: var(--color-white);
+    background-color: var(--color-dark-shadow);
+    padding: 15px 45px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-align: center;
+
+}
+
+.button:hover {
+    color: var(--color-dark);
+    background-color: var(--color-white);
+    border-color: var(--color-dark);
+
+    -moz-box-shadow:0 0 30px var(--color-gray-shadow);
+    -webkit-box-shadow:0 0 30px var(--color-gray-shadow);
+    box-shadow:0 0 30px var(--color-gray-shadow);
+}

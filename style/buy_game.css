@@ -1,8 +1,11 @@
 .buy_game {
-    margin-top: 120px;
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    row-gap: 60px;
+    flex-wrap: wrap;
+
+    width: 90%;
+    margin: 120px auto 0;
 }
 
 .buy_game-image {
@@ -45,36 +48,18 @@
     margin-top: 30px;
 }
 
-.buy_game-text > a {
+.buy_game-buttons {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
     width: 100%;
-    max-width: 320px;
-    height: 65px;
-    border: 3px solid white;
-    color: #fff;
-    border-radius: 50px;
-    text-decoration: none;
-    font-size: 22px;
-    text-transform: uppercase;
-    background-color: rgba(31, 35, 34, 0.7);
-    font-weight: 700;
-    letter-spacing: 3px;
-
-    margin-top: 20px;
-    margin-left: auto;
+    padding: 0 5%;
 }
 
-.buy_game-text > a:hover {
-    color: #000;
-    background-color: #fff;
-    border-color: #000;
-
-    -moz-box-shadow:0 0 30px rgba(200, 200, 200, 0.5);
-    -webkit-box-shadow:0 0 30px rgba(200, 200, 200, 0.5);
-    box-shadow:0 0 30px rgba(200, 200, 200, 0.5);
+.buy_game-buttons-tg, .buy_game-buttons-avito {
+    width: 280px;
+    font-size: 24px;
 }
+
 
 @media (max-width: 1160px) {
     .buy_game-text {
@@ -91,10 +76,12 @@
         font-size: 20px;
     }
 
-    .buy_game-text > a{
-        height: 60px;
+    .buy_game-buttons-tg, .buy_game-buttons-avito {
+        width: 250px;
         font-size: 22px;
+        padding: 14px 42px;
     }
+
 }
 
 
@@ -116,22 +103,9 @@
     .buy_game-text {
         font-size: 17px;
     }
-
-    .buy_game-text > a{
-        max-width: 300px;
-        height: 55px;
-        font-size: 20px;
-    }
 }
 
 @media (max-width: 720px) {
-
-    .buy_game-text > a {
-        max-width: 200px;
-        height: 40px;
-        font-size: 16px;
-        letter-spacing: 1px;
-    }
 
     .buy_game-text-main {
         margin-top: 15px;
@@ -139,6 +113,16 @@
 
     .buy_game-text {
         font-size: 15px;
+    }
+
+    .buy_game-buttons {
+        padding: 0;
+    }
+
+    .buy_game-buttons-tg, .buy_game-buttons-avito {
+        width: 230px;
+        font-size: 20px;
+        padding: 13px 39px;
     }
 }
 
@@ -151,8 +135,10 @@
         font-size: 13px;
     }
 
-    .buy_game-text > a {
-        font-size: 14px;
+    .buy_game-buttons-tg, .buy_game-buttons-avito {
+        width: 220px;
+        font-size: 18px;
+        padding: 11px 36px;
     }
 }
 
@@ -165,10 +151,10 @@
         font-size: 11px;
     }
 
-    .buy_game-text > a { 
-        max-width: 170px;
-        height: 35px;
-        font-size: 12px;
+    .buy_game-buttons-tg, .buy_game-buttons-avito {
+        width: 210px;
+        font-size: 16px;
+        padding: 10px 33px;
     }
 }
 
@@ -183,10 +169,27 @@
     .buy_game-text {
         width: 63%;
     }
+
+    .buy_game-buttons {
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 15px;
+    }
+
+    .buy_game-buttons-tg, .buy_game-buttons-avito {
+        margin: 0 auto;
+        width: 200px;
+        font-size: 14px;
+        padding: 9px 30px;
+    }
+
+    .buy_game {
+        row-gap: 30px;
+    }
 }
 
 @media (max-width: 460px) {
-    .buy_game-text-main, .buy_game-text-bottom, .buy_game-text > a {
+    .buy_game-text-main, .buy_game-text-bottom{
         margin-top: 7px;
     }
 }
