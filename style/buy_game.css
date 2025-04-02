@@ -50,12 +50,90 @@
 
 .buy_game-buttons {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 35px;
+    gap: 35px;
     width: 100%;
     padding: 0 5%;
 }
 
-.buy_game-buttons-tg, .buy_game-buttons-avito {
+.buy_game-buttons-ozon {
+    -moz-box-shadow: 0 -5px 10px #005BFF,
+                     0 5px 10px #F1117E;
+    -webkit-box-shadow: 0 -5px 10px #005BFF,
+                        0 5px 10px #F1117E;
+    box-shadow: 0 -5px 10px #005BFF,
+                0 5px 10px #F1117E;
+}
+
+.buy_game-buttons-ozon:hover {
+    background-color: #005BFF;
+    color: var(--color-white);
+    border-color: var(--color-white);
+}
+
+.buy_game-buttons-wb {
+    -moz-box-shadow: 0 -5px 10px #EC238D,
+                     0 5px 10px #8D297F;
+    -webkit-box-shadow: 0 -5px 10px #EC238D,
+                        0 5px 10px #8D297F;
+    box-shadow:  0 -5px 10px #EC238D,
+                 0 5px 10px #8D297F;
+}
+
+.buy_game-buttons-wb:hover {
+    background-color: #8D297F;
+    color: var(--color-white);
+    border-color: var(--color-white);
+}
+
+.buy_game-buttons-tg {
+    -moz-box-shadow: 0 -5px 10px white,
+                     0 5px 10px #24A1DE;
+    -webkit-box-shadow: 0 -5px 10px white,
+                        0 5px 10px #24A1DE;
+    box-shadow: 0 -5px 10px white,
+                0 5px 10px #24A1DE;
+}
+
+.buy_game-buttons-tg:hover {
+    background-color: #24A1DE;
+    color: var(--color-white);
+    border-color: var(--color-white);
+}
+
+.buy_game-buttons-avito {
+    -moz-box-shadow: 0 -5px 10px #97CF26,
+                     0 5px 10px #00AAFF;
+    -webkit-box-shadow: 0 -5px 10px #97CF26,
+                        0 5px 10px #00AAFF;
+    box-shadow:  0 -5px 10px #97CF26,
+                 0 5px 10px #00AAFF;
+}
+
+.buy_game-buttons-avito:hover {
+    background-color: #97CF26;
+    color: var(--color-white);
+    border-color: var(--color-white);
+}
+
+.buy_game-buttons-yandex {
+    -moz-box-shadow: 0 -5px 10px #FFCC00,
+                     0 5px 10px #FF1A1A;
+    -webkit-box-shadow: 0 -5px 10px #FFCC00,
+                        0 5px 10px #FF1A1A;
+    box-shadow:  0 -5px 10px #FFCC00,
+                 0 5px 10px #FF1A1A;
+}
+
+.buy_game-buttons-yandex:hover {
+    background-color: #FFCC00;
+    color: var(--color-white);
+    border-color: var(--color-white);
+}
+
+.buy_game-buttons-button {
     width: 280px;
     font-size: 24px;
 }
@@ -76,7 +154,7 @@
         font-size: 20px;
     }
 
-    .buy_game-buttons-tg, .buy_game-buttons-avito {
+    .buy_game-buttons-button {
         width: 250px;
         font-size: 22px;
         padding: 14px 42px;
@@ -119,7 +197,7 @@
         padding: 0;
     }
 
-    .buy_game-buttons-tg, .buy_game-buttons-avito {
+    .buy_game-buttons-button {
         width: 230px;
         font-size: 20px;
         padding: 13px 39px;
@@ -135,7 +213,7 @@
         font-size: 13px;
     }
 
-    .buy_game-buttons-tg, .buy_game-buttons-avito {
+    .buy_game-buttons-button {
         width: 220px;
         font-size: 18px;
         padding: 11px 36px;
@@ -151,7 +229,7 @@
         font-size: 11px;
     }
 
-    .buy_game-buttons-tg, .buy_game-buttons-avito {
+    .buy_game-buttons-button {
         width: 210px;
         font-size: 16px;
         padding: 10px 33px;
@@ -170,13 +248,7 @@
         width: 63%;
     }
 
-    .buy_game-buttons {
-        flex-direction: column;
-        justify-content: center;
-        row-gap: 15px;
-    }
-
-    .buy_game-buttons-tg, .buy_game-buttons-avito {
+    .buy_game-buttons-button {
         margin: 0 auto;
         width: 200px;
         font-size: 14px;
