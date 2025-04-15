@@ -133,6 +133,21 @@
     border-color: var(--color-white);
 }
 
+.buy_game-buttons-vk {
+    -moz-box-shadow: 0 -5px 10px #0077FF,
+                     0 5px 10px #FFFFFF;
+    -webkit-box-shadow: 0 -5px 10px #0077FF,
+                        0 5px 10px #FFFFFF;
+    box-shadow:  0 -5px 10px #0077FF,
+                 0 5px 10px #FFFFFF;
+}
+
+.buy_game-buttons-vk:hover {
+    background-color: #0077FF;
+    color: var(--color-white);
+    border-color: var(--color-white);
+}
+
 
 .buy_game-buttons-button {
     width: 280px;
