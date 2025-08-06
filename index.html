@@ -9,24 +9,24 @@
     <meta name="author" content="Detective Bird Games">
     <meta http-equiv="Content-Language" content="ru">
     <meta property="og:title" content="Заговоры Закулисья – Настольная Детективная Игра">
-    <meta property="og:description" content="Погрузись в атмосферу театрального расследования. Что случилось с режиссёром? Проверь свою логику и внимание к деталям!">
+    <meta property="og:description" content="Погрузись в атмосферу театрального расследования. Проверь свою логику и внимание к деталям!">
     <meta property="og:image" content="https://detectivebirdgames.ru/img/main-img.webp">
     <meta property="og:url" content="https://detectivebirdgames.ru">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="ru_RU">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Заговоры Закулисья – Настольная Игра">
-    <meta name="twitter:description" content="Погрузись в атмосферу театрального расследования. Что случилось с режиссёром? Проверь свою логику и внимание к деталям!">
+    <meta name="twitter:description" content="Погрузись в атмосферу театрального расследования. Проверь свою логику и внимание к деталям!">
     <meta name="twitter:image" content="https://detectivebirdgames.ru/img/main-img.webp">
     <meta name="twitter:site" content="@detectivebirdgames">
     <link rel="canonical" href="https://detectivebirdgames.ru">
     <meta name="robots" content="index, follow">
 
-    <link rel="stylesheet" href="style/button.css">
+    <link rel="stylesheet" href="style/common.css">
     <link rel="stylesheet" href="style/global.css">
-    <link rel="stylesheet" href="style/heading.css">
-    <link rel="stylesheet" href="style/emotions2.css">
-    <link rel="stylesheet" href="style/features3.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/emotions.css">
+    <link rel="stylesheet" href="style/parts.css">
     <link rel="stylesheet" href="style/buy_game.css">
     <link rel="stylesheet" href="style/when.css">
     <link rel="stylesheet" href="style/traces.css">
@@ -41,8 +41,7 @@
 </head>
 
 <body class="wrapper">
-    <header id="heading">
-
+    <header class="header">
         <!-- Yandex.Metrika counter -->
         <script type="text/javascript" >
             (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
@@ -69,260 +68,156 @@
             gtag('config', 'AW-16941764288');
         </script>
         <!-- Google tag (gtag.js) -->
-
-        <div id="main-banner">
-            <img src="img/logo.svg" alt="Логотип компании" loading="lazy"  id="img-logo">
-            <h1 id="company-name">Detective Bird Games</h1>
-
-            <div id="line-container">
-                <h2 class="title">ЗАГОВОРЫ ЗАКУЛИСЬЯ</h2>
-                <div class="subtitle-container">
-                    <span class="line1"></span>
-                    <h3 id="bloody-props">КРОВАВЫЙ РЕКВИЗИТ</h3>
-                    <span class="line1"></span>
-                </div>
+        <div class="header-banner">
+            <img src="img/logo.svg" alt="Логотип компании" loading="lazy"  class="header-banner-logo">
+            <h1 class="common-text header-banner-company">Detective Bird Games</h1>
+            <h2 class="common-header header-banner-title">ЗАГОВОРЫ ЗАКУЛИСЬЯ</h2>
+            <div class="header-banner-subtitle">
+                <span class="header-banner-subtitle-line"></span>
+                <h3 class="header-banner-subtitle-text">ДЕТЕКТИВНАЯ ТРИЛОГИЯ</h3>
+                <span class="header-banner-subtitle-line"></span>
             </div>
-
         </div>
-
-        <img src="img/gallows.svg" alt="Декоративная петля" loading="lazy"  id="gallows">
-
-        <p id="text-description">
-            Известный театральный режиссёр Максим Островский найден мёртвым в собственном театре.
+        <img src="img/gallows.svg" alt="Декоративная петля" loading="lazy"  class="header-gallows">
+        <p class="common-text header-description">
+            Это настольный детективный квест, где игроки расследуют тайны провинциального театра!
             <br>
-            Несчастный случай? Самоубийство? Или кто-то умело инсценировал трагедию?
+            В наборе - десятки стилизованных документов (интервью, фотографии, схемы).
             <br>
-            Ты – единственный, кто может распутать это дело.
-            <br>
-            Изучай улики, анализируй показания свидетелей, сопоставляй факты.
-            <br>
-            Каждый шаг может привести к разгадке… или в тупик.
+            Игра строится на анализе материалов и ответах на ключевые вопросы.
         </p>
-
-
-        <a href="#buy_game_link" id="go-to-tg">КАК ЗАКАЗАТЬ?</a>
-
-
-        <img src="img/hand.webp" alt="Декоративная рука" loading="lazy"  class="hand">
+        <a href="#buy_game_link" class="button header-link">КАК ЗАКАЗАТЬ?</a>
+        <img src="img/hand.webp" alt="Декоративная рука" loading="lazy" class="hand header-hand">
     </header>
 
     <main>
-
-    <!--    - - - - - - - - - -  E M O T I O N S  - - - - - - - - - -      -->
-    <section id="emotions-container">
-        <div id="emotions">
-            <div>
-                <img src="img/boredom.svg" loading="lazy"  alt="Иконка с человечком" >
-                <div class="emotions-text">
-                    <p class="emotions-text-title">СКУКОТА</p>
-                    <p class="emotions-text-subtitle"> 0 / 10</p>
-                </div>
-            </div>
-
-            <div>
-                <img src="img/paper.svg" loading="lazy"  alt="Иконка с бумажкой" >
-                <div class="emotions-text">
-                    <p class="emotions-text-title">ОБЪЕМ ПРАВИЛ</p>
-                    <p class="emotions-text-subtitle">1 ЛИСТ</p>
-                </div>
-            </div>
-
-
-            <div>
-                <img src="img/cross.svg" loading="lazy"  alt="Иконка с крестом">
-                <div class="emotions-text">
-                    <p class="emotions-text-title">ВОСПОМИНАНИЯ</p>
-                    <p class="emotions-text-subtitle">НА ВСЮ ЖИЗНЬ</p>
-                </div>
-            </div>
-
-        </div>
-    </section>
-    <!--     /  /  /  /  /  /  E M O T I O N S   /  /  /  /  /  /      -->
-
-
-
-
-
-
-
-    <section id="container">
-        <!--    - - - - - - - - - -  F E A T U R E S - - - - - - - - - -      -->
-
-            <!-- Картинки -->
-            <div class="img-line1">
-                <article class="first-img">
-                    <div class="features-img" id="img1">
-                        <img
-                        src="img/feature1.webp"
-                        alt="Фотография с документами"
-                        class="img-features-img"
-                        loading="lazy"
-                        id="img-features-img1"
-                    >
+        <section class="section emotions">
+                <div class="emotion">
+                    <div class="emotion-image">
+                        <img src="img/boredom.svg" loading="lazy"  alt="Иконка с человечком" >
                     </div>
+                    <div class="common-text emotion-text">
+                        <p class="emotion-text-title">СКУКОТА</p>
+                        <p class="emotion-text-subtitle"> 0 / 10</p>
+                    </div>
+                </div>
+                <div class="emotion">
+                    <div class="emotion-image">
+                        <img src="img/paper.svg" loading="lazy"  alt="Иконка с бумажкой" >
+                    </div>
+                    <div class="common-text emotion-text">
+                        <p class="emotion-text-title">ОБЪЕМ ПРАВИЛ</p>
+                        <p class="emotion-text-subtitle">1 ЛИСТ</p>
+                    </div>
+                </div>
+                <div class="emotion">
+                     <div class="emotion-image">
+                        <img src="img/cross.svg" loading="lazy"  alt="Иконка с крестом">
+                     </div>
+                    <div class="common-text emotion-text">
+                        <p class="emotion-text-title">ВОСПОМИНАНИЯ</p>
+                        <p class="emotion-text-subtitle">НА ВСЮ ЖИЗНЬ</p>
+                    </div>
+                </div>
+                <img src="img/hand.webp" alt="Декоративная рука" loading="lazy" class="hand emotions-hand">
+        </section>
 
-                    <h3 class="features-description">
-                        Атмосферное расследование с настоящими уликами, документами и протоколами.
-                    </h3>
-
-                    <img src="img/hand.webp" loading="lazy"  alt="Декоративная рука" id="hand2">
-                    <img src="img/clip.svg" loading="lazy"  alt="Иконка скрепки" class="clip" id="clip1">
-                </article>
-
-
-                <article class="second-img">
-                    <div class="features-img" id="img2">
+        <section class="section parts">
+            <h2 class="common-header parts-header">ЧАСТИ ИГРЫ</h2>
+            <div class="parts-container">
+                <a class="button part" href="zz_1.html">
+                    <h3 class="part-name">Кровавый<br>Реквизит</h3>
+                    <div class="part-image">
                         <img
-                        src="img/feature2.webp"
-                        alt="Фотография лупы с отпечатками"
-                        class="img-features-img"
+                        src="img/gallows.svg"
+                        alt="Фотография петли"
                         loading="lazy"
                         >
                     </div>
-
-                    <h3 class="features-description">
-                        Чистая дедукция: никаких случайных догадок, только логика и внимание к деталям
-                    </h3>
-
-                    <img src="img/clip.svg" loading="lazy"  alt="Иконка скрепки" class="clip" id="clip2">
-                </article>
-
-            </div>
-
-
-            <div class="img-line2">
-                <article class="first-img">
-                    <div class="features-img" id="img3">
+                    <p class="common-text part-text">Известный театральный режиссёр Максим Островский найден мёртвым в собственном театре...</p>
+                </a>
+                <a class="button part" href="zz_2.html">
+                    <h3 class="part-name">Промокшие<br>Бумаги</h3>
+                    <div class="part-image">
                         <img
-                        src="img/feature3.webp"
-                        alt="Фотография со всеми персонажами"
-                        class="img-features-img"
+                        src="img/rain.svg"
+                        alt="Фотография петли"
                         loading="lazy"
                         >
                     </div>
-
-                    <h3 class="features-description">
-                        Театральное закулисье, где каждый скрывает свои мотивы
+                    <p class="common-text part-text">В дождливый утренний час неопознанный автомобиль сбил журналистку Анну Петрову...</p>
+                </a>
+                <a class="button part" href="zz_3.html">
+                    <h3 class="part-name">?<br>?
                     </h3>
-
-                    <img src="img/clip.svg" loading="lazy"  alt="Иконка скрепки" class="clip" id="clip3">
-                </article>
-
-
-                <article class="second-img">
-                    <div class="features-img" id="img4">
+                    <div class="part-image">
                         <img
-                        src="img/feature4.webp"
-                        alt="Фотография с шахматами"
-                        class="img-features-img"
+                        src="img/question.svg"
+                        alt="Фотография петли"
                         loading="lazy"
                         >
                     </div>
-
-                    <h3 class="features-description">
-                        Можно пройти в одиночку или в компании
-                    </h3>
-
-                    <img src="img/clip.svg" loading="lazy"  alt="Иконка скрепки" class="clip" id="clip4">
-                </article>
+                    <p class="common-text part-text">...</p>
+                </a>
 
             </div>
-    </section>
+            <img src="img/hand.webp" alt="Декоративная рука" loading="lazy" class="hand parts-hand">
+        </section>
 
-        <!--     /  /  /  /  /  /  F E A T U R E S /  /  /  /  /  /      -->
-
-    <div id="buy_game_link"></div>
-    <section class="buy_game">
-        <div class="buy_game-image">
-            <img
-            src="img/buy_game.webp"
-            alt="Фотография с папкой игры"
-            loading="lazy"
-            >
-        </div>
-        <div class="buy_game-text">
-            <h2>КАК ЗАКАЗАТЬ ИГРУ?</h2>
-            <p class="buy_game-text-main">Мы преклоняемся только перед фанатами!</p>
-            <p class="buy_game-text-main">Продажа <span class="buy_game-text-bold">Заговоров закулисья</span> происходит без посредников — напрямую от создателей к вам!</p>
-            <p class="buy_game-text-main">Заказать игру можно любым удобным способом по кнопке ниже. Напишите, и мы всё расскажем!</p>
-            <p class="buy_game-text-bottom"><span class="buy_game-text-bold">Заговоры закулисья</span> — игра, созданная людьми и для людей.</p>
-        </div>
-        <div class="buy_game-buttons">
-            <a class="button buy_game-buttons-ozon button buy_game-buttons-button" target="_blank" href="https://ozon.ru/t/7oEoXUU">OZON</a>
-            <a class="button buy_game-buttons-wb buy_game-buttons-button" target="_blank" href="https://www.wildberries.ru/seller/4557273">WB</a>
-            <a class="button buy_game-buttons-tg buy_game-buttons-button" target="_blank" href="https://t.me/dbg_manager">TELEGRAM</a>
-            <a class="button buy_game-buttons-vk buy_game-buttons-button" target="_blank" href="https://vk.com/market/product/nastolnaya-detektivnaya-igra-zagovory-zakulisya-228478020-14852510">VK</a>
-            <a class="button buy_game-buttons-avito buy_game-buttons-button" target="_blank" href="https://www.avito.ru/user/ea33de8918a46c57a89950325a4428e3/profile/all/sport_i_otdyh?src=search_seller_info&sellerId=ea33de8918a46c57a89950325a4428e3">AVITO</a>
-            <a class="button buy_game-buttons-yandex buy_game-buttons-button" target="_blank" href="https://market.yandex.ru/business--detectivebirdgames/200628052?generalContext=t%3DshopInShop%3Bi%3D1%3Bbi%3D200628052%3B&rs=eJwzEvjEyMvBKLDwEKsEg8aWuVPlACpSBQg%2C&searchContext=sins_ctx">YMARKET</a>
-        </div>
-    </section>
-
-
+        <div id="buy_game_link"></div>
+        <section class="section buy_game">
+            <div class="buy_game-image">
+                <img
+                src="img/buy_game.webp"
+                alt="Фотография с папкой игры"
+                loading="lazy"
+                >
+            </div>
+            <div class="buy_game-text">
+                <h2 class="common-header buy_game-text-header">КАК ЗАКАЗАТЬ ИГРУ?</h2>
+                <p class="common-text buy_game-text-main">Мы преклоняемся только перед фанатами!</p>
+                <p class="common-text buy_game-text-main">Продажа <span class="buy_game-text-bold">Заговоров Закулисья</span> происходит без посредников — напрямую от создателей к вам!</p>
+                <p class="common-text buy_game-text-main">Заказать игру можно любым удобным способом по кнопкам ниже.</p>
+                <p class="common-text buy_game-text-bottom"><span class="buy_game-text-bold">Заговоры Закулисья</span> — игра, созданная людьми и для людей.</p>
+            </div>
+            <div class="buy_game-buttons">
+                <a class="button buy_game-buttons-ozon button buy_game-buttons-button" target="_blank" href="https://www.ozon.ru/seller/detectivebirdgames-2761975/products/?miniapp=seller_2761975">OZON</a>
+                <a class="button buy_game-buttons-wb buy_game-buttons-button" target="_blank" href="https://www.wildberries.ru/seller/4557273">WB</a>
+                <a class="button buy_game-buttons-tg buy_game-buttons-button" target="_blank" href="https://t.me/dbg_manager">TELEGRAM</a>
+                <a class="button buy_game-buttons-vk buy_game-buttons-button" target="_blank" href="https://vk.com/market-228478020?screen=group">VK</a>
+                <a class="button buy_game-buttons-avito buy_game-buttons-button" target="_blank" href="https://avito.ru/user/5ad7ddb50bfbc7e5233c7981b3c48ce2/profile">AVITO</a>
+                <a class="button buy_game-buttons-yandex buy_game-buttons-button" target="_blank" href="https://market.yandex.ru/business--detectivebirdgames/200628052?generalContext=t%3DshopInShop%3Bi%3D1%3Bbi%3D200628052%3B&rs=eJwzEvjEyMvBKLDwEKsEg8aWuVPlACpSBQg%2C&searchContext=sins_ctx">YMARKET</a>
+            </div>
+            <img src="img/hand.webp" alt="Декоративная рука" loading="lazy" class="hand buy_game-hand">
+        </section>
     </main>
 
     <footer>
-        <!--    - - - - - - - - - -  W  H  E  N  - - - - - - - - - -      -->
-        <div id="when">
-
-            <div id="when-text">
-                <span class="line3"></span>
-                    <h2>Когда выйдет продолжение?</h2>
-                <span class="line3"></span>
+        <div class="when">
+            <div class="when-header">
+                <span class="when-header-line"></span>
+                    <h2 class="common-header when-header-text">Когда выйдет продолжение?</h2>
+                <span class="when-header-line"></span>
             </div>
 
-
-
-            <div id="when-block">
+            <div class="when-block">
                 <img src="img/curtain_left.svg" loading="lazy"  alt="Занавеска театральная" class="curtains" id="left-curtain">
-
-                <div id="when-description">
-                    <h3>Мы услышали ваши позитивные отзывы и уже работаем над следующей частью!</h3>
-                    <p>Подпишись на наш Telegram, чтобы не пропустить анонсы!</p>
-                    <a href="https://t.me/DetectiveBirdGames" target="_blank" id="telegram">TELEGRAM</a>
+                <div class="when-block-description">
+                    <h3 class="common-text when-block-description-header">Мы услышали ваши позитивные отзывы и уже работаем над следующей частью!</h3>
+                    <p class="common-text when-block-description-text">Подпишись на наш Telegram, чтобы не пропустить анонсы!</p>
+                    <a class="button when-block-description-link" href="https://t.me/DetectiveBirdGames" target="_blank">TELEGRAM</a>
                 </div>
-
                 <img src="img/curtain_right.svg" loading="lazy"  alt="Занавеска театральная" class="curtains" id="right-curtain">
             </div>
 
         </div>
-        <!--     /  /  /  /  /  /   W  H  E  N   /  /  /  /  /  /      -->
 
 
-
-
-    <!--    - - - - - - - - - -  T R A C E S  - - - - - - - - - -      -->
-    <div id="traces">
-        <img src="img/traces.webp" loading="lazy" alt="Картинка следов" class="traces-img" id="first-trace-img">
-        <img src="img/traces.webp" loading="lazy" alt="Картинка следов" class="traces-img" id="second-trace-img">
-    </div>
-    <!--     /  /  /  /  /  /   T R A C E S   /  /  /  /  /  /      -->
+        <div id="traces">
+            <img src="img/traces.webp" loading="lazy" alt="Картинка следов" class="traces-img" id="first-trace-img">
+            <img src="img/traces.webp" loading="lazy" alt="Картинка следов" class="traces-img" id="second-trace-img">
+        </div>
 
     </footer>
-
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            // Получаем элементы
-            const titleElement = document.querySelector('#line-container .title');
-            const subtitleContainer = document.querySelector('.subtitle-container');
-
-            // Получаем ширину заголовка
-            const titleWidth = titleElement.offsetWidth;
-
-            // Устанавливаем ширину контейнера подзаголовка
-            subtitleContainer.style.width = titleWidth + 'px';
-
-            // Обработчик для пересчета при изменении размера окна
-            window.addEventListener('resize', function() {
-                // Получаем обновленную ширину заголовка
-                const updatedTitleWidth = titleElement.offsetWidth;
-
-                // Обновляем ширину контейнера подзаголовка
-                subtitleContainer.style.width = updatedTitleWidth + 'px';
-            });
-        });
-    </script>
-
 </body>
 </html>

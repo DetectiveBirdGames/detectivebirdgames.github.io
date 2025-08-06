@@ -39,31 +39,37 @@
     --color-gray: #808080;
     --color-gray-shadow: #808080A0;
 
-    --main-banner-opacity: 72%;
-    --upper-button-opacity: 78%;
-    --button-radius: 50%;
-
     --сormorant-font: 'Cormorant Unicase', sans-serif;
-
-    --container-width: 1260px;
-    --container-padding-x: 15px;
-
-    --transition-duration: 0.2s;
 }
-
 
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: white;
+    color: var(--color-white);
     font-family: var(--сormorant-font), sans-serif;
+    font-weight: 400;
     text-decoration: none;
 }
 
-html { scroll-behavior: smooth; }
-
 body {
     background-color: var(--color-dark);
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+@media (max-width: 1040px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 935px) {
+    html {
+        font-size: 11px;
+    }
 }

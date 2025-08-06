@@ -1,0 +1,53 @@
+.emotions {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1em;
+    margin-top: 8rem;
+}
+
+.emotion {
+    width: 31%;
+}
+
+.emotion-image {
+    height: 6rem;
+}
+
+.emotion-image > img {
+    height: 100%;
+    width: 100%;
+    filter: drop-shadow(0 0 30px var(--color-gray-shadow));
+}
+
+.emotion-text{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.emotion-text-title {
+    font-weight: 700;
+}
+
+.emotion-text-subtitle {
+    font-weight: 300;
+    margin-top: 0.5rem;
+}
+
+.emotions-hand {
+    left: 1rem;
+    z-index: 3;
+    top: 5rem;
+    transform: rotate(45deg);
+}
+
+@media (max-width: 550px) {
+    .emotions {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .emotion {
+        width: 100%;
+    }
+}
